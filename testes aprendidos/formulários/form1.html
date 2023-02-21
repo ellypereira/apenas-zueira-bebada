@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apenas tst bebada</title>
+    <style>
+        body{
+            background-color: rgba(8, 8, 245, 0.7);
+
+        }
+        img{
+            height: 500px;
+            width: 900px;
+            border-radius: 15px;}
+
+            h1{
+                color: greenyellow;
+            }
+
+            p {
+                color: rgb(230, 246, 2);
+            }
+    </style>
+<body>
+    <img src="https://marketplace.canva.com/EAEmcQr-cIg/1/0/1600w/canva-azul-monstro-engra%C3%A7ado-e-extravagante-papel-de-parede-QxV4cLsG0ak.jpg" alt="">
+    <h1>Festinha dos malucos</h1>
+    <form action="cadastro.php" method="post">
+    <p>
+        <label for="inome">Nome</label>
+        <input type="text" name="nome" id="inome" required minlength="8" maxlength="15" placeholder="sabe colocar o nome?">
+    </p>
+    <p>
+        <label for="imes">mês</label>
+        <input type="date" name="data" id="imes"value="2023-02-20">
+    </p>
+    <p>
+        <label for="ihora">horas</label>
+        <input type="time" name="hora" id="ihora" value="22:00">
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+    </p>
+</form>
+</body>
+</html>
