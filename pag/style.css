@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    justify-content: space-between;
+    text-align: center;
+    background-color: #03453d;
+    color: #8fd053;
+    padding: 25px;
+
+}
+
+nav > a{
+    color: #fff;
+}
